@@ -1,3 +1,8 @@
-declare var a: number;
-declare var b: string;
-declare var aa: number[];
+export interface phone {
+    name: string;
+    number: number;
+}
+export interface email {
+    name: string;
+    email: string;
+}
