@@ -67,6 +67,10 @@ type HasName = {name : string};
 
 // extends
 // how a interface can extends other one
+interface CountryPhoneNumber {
+code:number;
+ contact:number;
+}
 
 export interface InternationalPhoneNumbers extends CountryPhoneNumber{
     countryCode: string;
