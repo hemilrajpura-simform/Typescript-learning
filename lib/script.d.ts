@@ -13,4 +13,9 @@ interface CountryPhoneNumber {
 export interface InternationalPhoneNumbers extends CountryPhoneNumber {
     countryCode: string;
 }
+export declare class emplyoee {
+    email: string;
+    name: string;
+    constructor(name: string, email: string);
+}
 export {};
